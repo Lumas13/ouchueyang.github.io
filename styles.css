@@ -1,0 +1,91 @@
+body {
+    background-color: #cddba4;
+    font-family: 'helvetica', 'arial';
+  }
+  
+  .nav-bar { /* Target elements with class "nav-bar" */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cddba4;
+  }
+  
+  .nav-bar li { /* Target list items within the navigation bar */
+    float: left;
+  }
+  
+  .nav-bar li a { /* Target links within the navigation bar */
+    display: block;
+    color: #4f5d0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-bar li a img { /* Target images within links */
+    width: 35px; /* Set desired width */
+    height: 35px; /* Set desired height */
+  }
+  
+  .nav-bar li a:hover {
+    transform: translateY(-4px);
+  }
+  
+  .hero {
+    background-color: #cddba4;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-container {
+    display: flex;
+    width: 50%;  
+    margin-left: 20%;
+  }
+  
+  .hero-text {
+    flex: 2;  
+    text-align: left;  
+    color: #4f5d0f;
+    margin: 0 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 25px;
+  }
+  
+  .hero-text h2 {
+    font-size: 50px; 
+  }
+  
+  .hero-text h3 {
+    font-size: 35px;
+  }
+  
+  .hero-text p {
+    font-size: 18px; 
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4f5d0f;
+    color: #cddba4;
+    text-decoration: none;
+    font-size: 16px; 
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hero-text a:hover {
+    background-color: #333;
+  }
+  
+  #resumeButton {  /* Target resume button using ID (higher specificity) */
+    font-weight: bold;
+  }
